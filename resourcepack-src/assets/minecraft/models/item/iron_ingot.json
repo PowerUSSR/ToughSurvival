@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/iron_ingot"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 1001 }, "model": "minecraft:item/heater_1" },
+        { "predicate": { "custom_model_data": 1002 }, "model": "minecraft:item/heater_2" },
+        { "predicate": { "custom_model_data": 1003 }, "model": "minecraft:item/heater_3" }
+    ]
+}

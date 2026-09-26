@@ -1,0 +1,17 @@
+name: ToughSurvival
+main: org.mineserver.survival.SurvivalPlugin
+version: 1.0
+api-version: 1.20
+description: Система выживания — температура тела и жажда (аналог Tough As Nails)
+softdepend: [ItemsAdder]
+
+commands:
+  tan:
+    description: Управление ToughSurvival
+    usage: /tan [status|settemp|setthirst|reload|help] [аргументы]
+    aliases: [toughsurvival, survival]
+
+permissions:
+  tan.admin:
+    description: Административный доступ (settemp, setthirst, reload, просмотр других игроков)
+    default: op

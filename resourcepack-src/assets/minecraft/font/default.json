@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/survival_icons.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE001\uE002"]
+        }
+    ]
+}

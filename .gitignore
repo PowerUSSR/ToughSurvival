@@ -1,0 +1,10 @@
+classes/
+*.class
+*.jar
+!GenIcons.class
+build_output.txt
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
